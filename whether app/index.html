@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather frontend assignment 02</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <center>
+    <div class="main">
+      <div class="box1l" style="background-color:#fff">
+        <img src="./icon/search_black_24dp.svg" alt="">
+        <input type="text" placeholder="Search Place" name="search" style="border: none; outline: none;">
+        <img src="./icon/rainy-day.png">
+        <br><br>
+        <h1 style="font-size: 80px;font-weight:normal;">19°C</h1>
+        <p><strong>Monday,</strong><span>16:00</span></p>
+        <hr>
+        <center>
+          <p><img src="./icon/cloud.png"> Mostly Cloudy</p>
+          <p><img src="./icon/rain_drop.png"> Rain-30%</p>
+        </center>
+        <img src="./icon/location_on_black_24dp.svg"
+          style="width:15px;height:15px; border-radius: 50px; position: relative; left: -46%; top: 4%;">
+        <img src="./icon/barcelona.jpeg" class="New">
+      </div>
+      <div class="box2r" style="background-color:#eff4fa">
+        <!--NAV BAR-->
+        <nav class="navbar navbar-expand-lg">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <h6> <a class="nav-item nav-link" href="#" style="color:grey">Today</a></h6>
+              <h6><a class="nav-item nav-link" href="#" style="margin-right:400px;color:deepskyblue;">Week</a></h6>
+            </div>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <div class="col-lg-2"
+                style="border-radius: 50%; margin: 10px; background-color: deepskyblue; color: white !important; font-size: 20px; height: 35px; width: 40px;">
+                <span style="color: white;">&#8451;</span>
+              </div>
+
+              <div class="col-lg-2"
+                style="border-radius: 50%; margin: 10px; background-color: #DDDDDD; font-size: 20px; height: 35px; width: 40px;">
+                <span style="color: black;">&#8457;</span>
+
+              </div>
+              <a class="nav-item nav-link" href="#" style="float:right"><img class="navimg" src="./icon/user.png"><b
+                  class="text-muted" style="margin-left: 15px;">Gourav Chawla</b> <img
+                  src="./icon/expand_more_black_24dp.svg" alt=""></a>
+            </div>
+          </div>
+        </nav>
+
+        <!--CARD VIEW-->
+        <div class="row">
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Mon</h6>
+                <img class="navimg" src="./icon/mon.png">
+                <br>
+                <p class="base"><b>20°</b><span> 6°</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Tue</h6>
+                <img class="navimg" src="./icon/pouring.png">
+                <br>
+                <p class="base"><b>16°</b><span> 4°</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Wed</h6>
+                <img class="navimg" src="./icon/wed.png">
+                <br>
+                <p class="base"><b>18°</b><span> 6°</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Thu</h6>
+                <img class="navimg" src="./icon/mon.png">
+                <br>
+                <p class="base"><b>12°</b><span> 8°</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Fri</h6>
+                <img class="navimg" src="./icon/sunny.png">
+                <br>
+                <p class="base"><b>16°</b><span> 4°</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Sat</h6>
+                <img class="navimg" src="./icon/pouring.png">
+                <br>
+                <p class="base"><b>15°</b><span> 8°</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Sun</h6>
+                <img class="navimg" src="./icon/sunny.png">
+                <br>
+                <p class="base"><b>12°</b><span> 6°</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style="float:left;margin-top:20px;font-weight: bold;">Today's Highlight</p>
+        <br><br><br>
+
+        <div class="gallery ">
+          <p class="gallery1"><span>UV Index</span></p>
+          <img src="./icon/gauge.jpeg">
+
+        </div>
+
+        <div class="gallery gallery1">
+          <p><span>Wind Status</span></p>
+          <h1>8.70<span style="color:black;font-size:25px">Km/hr</span></h1>
+          <br>
+          <h6><img src="./icon/location_on_black_24dp.svg"
+              style="width:25px;height:25px; border-radius: 50px;margin-right: 10px;">Barcelona,
+            Spain</h6>
+        </div>
+
+        <div class="gallery">
+          <p class="gallery1"><span>Sunrise and Sunset</span></p>
+
+          <img src="./icon/arrow_circle_up_black_24dp.svg" style="width:25px;height:25px; margin-left: -125px;">
+          6:30AM<br><span style="font-size:12px; margin-left: -125px;">-2m 46s</span>
+          <p></p>
+          <img src="./icon/arrow_circle_down_black_24dp.svg" style="width:25px;height:25px; margin-left: -125px;">
+          5:45PM<br><span style="font-size:12px; margin-left: -125px;">-3m 26s</span>
+
+        </div>
+
+        <div class="gallery gallery1">
+          <p><span>Humidity</span></p>
+          <h2>12%</h2>
+          <br>
+          <p class="detail">Status:<span class="quality">Good Quality</span></p>
+          <!-- icon -->
+          <div class="slider-container">
+            <span class="bar"><span class="fill"></span></span>
+            <input type="range" id="slider" class="slider">
+          </div>
+        </div>
+
+        <div class="gallery gallery1">
+          <p><span>Visibility</span></p>
+          <h2>8.4km/h</h2>
+          <br>
+          <p class="detail">Status:<span class="visibility">Average</span></p>
+          <!-- icon -->
+          <div class="slider-container2">
+            <span class="bar"><span class="fill"></span></span>
+            <input type="range" id="slider" class="slider">
+          </div>
+        </div>
+
+        <div class="gallery gallery1">
+          <p><span>Air Quality</span></p>
+          <!-- icon -->
+          <div class="slider-container3">
+            <span class="bar"><span class="fill"></span></span>
+            <input type="range" id="slider" class="slider">
+          </div>
+          <h2>120</h2>
+          <br>
+          <p class="detail">Status:<span class="airquality"> Bad Quality</span></p>
+        </div>
+      </div>
+  </center>
+</body>
+
+</html>

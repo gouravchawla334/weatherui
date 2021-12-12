@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DDDDDD;
+}
+
+.box1l {
+  float: left;
+  width: 20%;
+  padding: 30px;
+  margin-top: 40px;
+  margin-left: 150px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 750px;
+}
+
+.box2r{
+  float: left;
+  width: 60%;
+  padding: 30px;
+  right: 0px;
+  padding-right: 0px;
+  margin-top: 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 750px;
+}
+
+.main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.navimg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.card {
+  width: 100px;
+  border-radius: 10px
+}
+
+.col-sm-1 {
+  margin-right: 40px;
+}
+
+div.gallery {
+  padding: 10px;
+  margin: 5px;
+  padding-top: 2px;
+  border: 1px solid rgb(213, 224, 224);
+  float: left;
+  width: 240px;
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px
+}
+
+div.gallery img {
+  width: 60%;
+  height: 80px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.gallery1 {
+  text-align: left;
+}
+
+.New {
+  width: 100%;
+  height: 170px;
+  border-radius: 15px;
+}
+
+span {
+  color: gray;
+}
+
+.base {
+  font-size: 12px;
+}
+
+p.detail {
+  color: gray
+}
+
+span.quality {
+  color: deepskyblue;
+}
+
+span.visibility {
+  color: goldenrod;
+}
+
+span.airquality {
+  color: orangered;
+}
+
+.slider-container, .slider-container2, .slider-container3 {
+  position: absolute;
+  right: 54%;
+  top: 83%;
+}
+
+.slider-container2 {
+  position: absolute;
+  right: 37%;
+  top: 83%;
+}
+.slider-container3 {
+  position: absolute;
+  right: 21%;
+  top: 83%;
+}
+.slider-container .slider, .slider-container2 .slider, .slider-container3 .slider {
+  position: absolute;
+  transform: rotate(-90deg) translate(-50%, -50%);
+  transform-origin: 0 0;
+  background-color: rgb(202, 202, 202);
+}
